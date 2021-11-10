@@ -37,7 +37,7 @@
     123
     ## License
 
-    GNU LGPLv3
+    GNU AGPLv3
     
 
     ---
