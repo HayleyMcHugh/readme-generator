@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/HayleyMcHugh/readme-generator#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "inquirer": "^8.2.0"
   }
 }
