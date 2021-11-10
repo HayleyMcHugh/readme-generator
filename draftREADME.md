@@ -4,7 +4,7 @@
 
     *The what, why, and how of your project:*
 
-    123
+    hi
 
     ## Table of Contents
     * [Installation](#installation)
@@ -17,27 +17,27 @@
 
     *Steps required to install your project and how to get the development environment running:*
 
-    123
+    hi
     ## Usage 
 
     *Instructions and examples for usage:*
 
-    123
+    hi
 
     ## Contributing 
 
     *If you would like to contribute it, you can follow these guidelines on how to do so.*
 
-    123
+    hi
 
     ## Tests
 
     *Tests for application and how to run them:*
 
-    123
+    hi
     ## License
 
-    GNU AGPLv3
+    MIT License
     
 
     ---
