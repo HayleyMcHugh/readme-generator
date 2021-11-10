@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js')
 const userAPI = require('./utils/userAPI.js');
 
 
-const userQuestions = [
+const userQuestions = [ 
     {
       type: 'input',
       message: 'What is your GitHub username?',
