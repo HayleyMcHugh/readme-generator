@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const util = require('util');
 const fs = require('fs');
 
-const generateMarkdown = require('./utils/generateMarkDown.js')
+const generateMarkdown = require('./utils/generateMarkdown.js')
 const userAPI = require('./utils/userAPI.js');
 
 
