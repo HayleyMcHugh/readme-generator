@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const util = require('util');
 const fs = require('fs');
 
-const generateMarkdown = require('./utils/generateMarkdown.js')
+const generateMarkdown = require('./utils/generateMarkDown.js')
 const userAPI = require('./utils/userAPI.js');
 
 
@@ -71,7 +71,7 @@ async function init () {
         const userResponses = await inquirer.prompt(userQuestions);
         console.log("Your responses: ", userResponses);
 
-        const userInfo = await userAPI.getUser(userResponses);
+        const userInfo = await userAPI.getUserInfo(userResponses);
         console.log("Your GitHub user info: ", userInfo);
 
         console.log("Generating your README...");

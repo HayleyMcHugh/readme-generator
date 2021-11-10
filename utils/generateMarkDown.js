@@ -100,12 +100,13 @@ function generateMarkdown(userResponses, userInfo) {
     GitHub: [@${userInfo.login}](${userInfo.url})
     `;
 
-    if (userInfo,email !== null) {
+    if (userInfo.email !== null) {
     
     developerSection +=
     `
 
     Email: ${userInfo.email}
+
     `};
 
     topMarkdown += developerSection;
