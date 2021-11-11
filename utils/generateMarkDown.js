@@ -46,6 +46,7 @@ function generateMarkdown(userResponses, userInfo) {
 
     topMarkdown += 
     `
+
     ## Usage 
 
     *Instructions and examples for usage:*
@@ -79,6 +80,7 @@ function generateMarkdown(userResponses, userInfo) {
 
     topMarkdown +=
     `
+
     ## License
 
     ${userResponses.licenses}
@@ -86,7 +88,6 @@ function generateMarkdown(userResponses, userInfo) {
 
     let developerSection = 
     `
-
     ---
 
     ## Questions?
