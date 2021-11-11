@@ -4,7 +4,7 @@
 
     *The what, why, and how of your project:*
 
-    hi
+    hello 
 
     ## Table of Contents
     * [Installation](#installation)
@@ -17,29 +17,30 @@
 
     *Steps required to install your project and how to get the development environment running:*
 
-    hi
+    hello
+
     ## Usage 
 
     *Instructions and examples for usage:*
 
-    hi
+    hello
 
     ## Contributing 
 
     *If you would like to contribute it, you can follow these guidelines on how to do so.*
 
-    hi
+    hello
 
     ## Tests
 
     *Tests for application and how to run them:*
 
-    hi
+    hello
+
     ## License
 
-    MIT License
+    Boost Software License 1.0
     
-
     ---
 
     ## Questions?
