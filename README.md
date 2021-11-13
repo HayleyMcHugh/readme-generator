@@ -34,7 +34,7 @@ After answering all the prompts, your README file will be named 'draftREADME.md'
     
 # Usage 
 
-<a href="https://watch.screencastify.com/v/nI9aluohVtuIOLGDGgzh">Link to Screencastify with video demo.</a>
+<a href="https://watch.screencastify.com/v/2xyvvrphdFGLTAb4ayzT">Link to Screencastify with video demo.</a>
 
 Instructions and examples for usage:
 
