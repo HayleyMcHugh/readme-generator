@@ -1,6 +1,6 @@
 # Readme Generator
 
-    ![License](https://img.shields.io/badge/License-GNU GPLv3)
+    ![License](https://img.shields.io/badge/License-Boost Software License 1.0)
     
     ## Table of Contents
     * [Description](#description)
@@ -49,7 +49,7 @@
    
     ## License
 
-    GNU GPLv3
+    Boost Software License 1.0
     
     ---
 
