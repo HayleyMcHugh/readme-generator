@@ -1,10 +1,10 @@
-# README.md Generator
+# Readme Generator
 
     ## Description 
 
     *The what, why, and how of your project:*
 
-    hello 
+    hello
 
     ## Table of Contents
     * [Installation](#installation)
@@ -39,7 +39,7 @@
 
     ## License
 
-    Boost Software License 1.0
+    GNU GPLv3
     
     ---
 
