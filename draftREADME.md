@@ -1,17 +1,23 @@
 # Readme Generator
 
+    ![License](https://img.shields.io/badge/License-GNU GPLv3)
+    
+    ## Table of Contents
+    * [Description](#description)
+    * [Installation](#installation) 
+    * [Usage](#usage) 
+    * [Contributing](#contribution) 
+    * [Tests](#tests)
+    * [License](#licenses)
+    * [Questions](#questions)
+
+
     ## Description 
 
     *The what, why, and how of your project:*
 
     hello
 
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contribution)
-    * [Tests](#tests)
-    * [Licenses](#licenses)
 
     ## Installation 
 
@@ -19,24 +25,28 @@
 
     hello
 
+    
     ## Usage 
 
     *Instructions and examples for usage:*
 
     hello
-
+    
+   
     ## Contributing 
 
     *If you would like to contribute it, you can follow these guidelines on how to do so.*
 
     hello
 
+   
     ## Tests
 
     *Tests for application and how to run them:*
 
     hello
-
+    
+   
     ## License
 
     GNU GPLv3
@@ -52,4 +62,6 @@
     Please see my information below:
 
     GitHub: [@HayleyMcHugh](https://api.github.com/users/HayleyMcHugh)
+
+    Email: null
     

@@ -1,22 +1,17 @@
 function generateMarkdown(userResponses, userInfo) {
+    return `# ${userResponses.title}
+
+    ![License](https://img.shields.io/badge/License-${userResponses.licenses})
     
-    let tableOfContents = `## Table of Contents`;
+    ## Table of Contents
+    * [Description](#description)
+    * [Installation](#installation) 
+    * [Usage](#usage) 
+    * [Contributing](#contribution) 
+    * [Tests](#tests)
+    * [License](#licenses)
+    * [Questions](#questions)
 
-    if (userResponses.installation !== '') { tableOfContents += `
-    * [Installation](#installation)` };
-
-    if (userResponses.usage !== '') { tableOfContents += `
-    * [Usage](#usage)` };
-
-    if (userResponses.contribution !== '') { tableOfContents += `
-    * [Contributing](#contribution)` };
-
-    if (userResponses.tests !== '') { tableOfContents += `
-    * [Tests](#tests)` };
-    
-
-    let topMarkdown = 
-    `# ${userResponses.title}
 
     ## Description 
 
@@ -24,70 +19,39 @@ function generateMarkdown(userResponses, userInfo) {
 
     ${userResponses.description}
 
-    `
-    topMarkdown += tableOfContents
-
-    topMarkdown += `
-    * [Licenses](#licenses)`;
-
-    if (userResponses.installation !== '') {
-    
-    topMarkdown += 
-    `
 
     ## Installation 
 
     *Steps required to install your project and how to get the development environment running:*
 
-    ${userResponses.installation}`
-    };
+    ${userResponses.installation}
 
-    if (userResponses.usage !== '') {
-
-    topMarkdown += 
-    `
-
+    
     ## Usage 
 
     *Instructions and examples for usage:*
 
-    ${userResponses.usage}`
-    };
-
-    if (userResponses.contribution !== '') {
+    ${userResponses.usage}
     
-    topMarkdown +=
-    `
-
+   
     ## Contributing 
 
     *If you would like to contribute it, you can follow these guidelines on how to do so.*
 
-    ${userResponses.contribution}`
-    };
+    ${userResponses.contribution}
 
-    if (userResponses.tests !== '') {
-
-    topMarkdown += 
-    `
-
+   
     ## Tests
 
     *Tests for application and how to run them:*
 
-    ${userResponses.tests}`
-    };
-
-    topMarkdown +=
-    `
-
+    ${userResponses.tests}
+    
+   
     ## License
 
     ${userResponses.licenses}
-    `;
-
-    let developerSection = 
-    `
+    
     ---
 
     ## Questions?
@@ -99,20 +63,9 @@ function generateMarkdown(userResponses, userInfo) {
     Please see my information below:
 
     GitHub: [@${userInfo.login}](${userInfo.url})
-    `;
-
-    if (userInfo.email !== null) {
-    
-    developerSection +=
-    `
 
     Email: ${userInfo.email}
-
-    `};
-
-    topMarkdown += developerSection;
-
-    return topMarkdown;
+    `
 }
 
 module.exports = generateMarkdown;

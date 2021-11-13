@@ -74,7 +74,6 @@ async function init () {
         const userInfo = await userAPI.getUserInfo(userResponses);
         console.log("Your GitHub user info: ", userInfo);
 
-        console.log("Generating your README...");
         const markdown = generateMarkdown(userResponses, userInfo);
 
         await writeFile('draftREADME.md', markdown);
@@ -82,6 +81,6 @@ async function init () {
     } catch (error) {
         console.log (error);
     }
-};
+}
 
-init ()
+init ();
