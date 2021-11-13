@@ -1,6 +1,6 @@
-# Readme Generator
+# readme generator
 
-    ![License](https://img.shields.io/badge/License-Boost Software License 1.0)
+    ![License](https://img.shields.io/badge/License-ISC License)
     
     ## Table of Contents
     * [Description](#description)
@@ -49,7 +49,7 @@
    
     ## License
 
-    Boost Software License 1.0
+    ISC License
     
     ---
 

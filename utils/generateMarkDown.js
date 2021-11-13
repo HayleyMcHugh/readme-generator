@@ -59,12 +59,8 @@ function generateMarkdown(userResponses, userInfo) {
     <img src"${userInfo.avatar_url}" alt="${userInfo.login}" width="35%" />
 
     For any questions, please don't hesitate to contact me. 
-    
-    Please see my information below:
 
     GitHub: [@${userInfo.login}](${userInfo.url})
-
-    Email: ${userInfo.email}
     `
 }
 

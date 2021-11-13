@@ -67,20 +67,16 @@ function writeToFile(fileName, data) {
 const writeFile = util.promisify(writeToFile);
 
 async function init () {
-    try {
-        const userResponses = await inquirer.prompt(userQuestions);
-        console.log("Your responses: ", userResponses);
+  try { 
+      const userResponses = await inquirer.prompt(userQuestions);
+      const userInfo = await userAPI.getUserInfo(userResponses);
+      const markdown = generateMarkdown(userResponses, userInfo);
+  
+      await writeFile('draftREADME.md', markdown);
 
-        const userInfo = await userAPI.getUserInfo(userResponses);
-        console.log("Your GitHub user info: ", userInfo);
-
-        const markdown = generateMarkdown(userResponses, userInfo);
-
-        await writeFile('draftREADME.md', markdown);
-
-    } catch (error) {
-        console.log (error);
-    }
+   } catch (error) {
+    console.log (error);
+   }
 }
 
 init ();
