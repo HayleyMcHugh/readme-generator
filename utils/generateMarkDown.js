@@ -1,66 +1,66 @@
 function generateMarkdown(userResponses, userInfo) {
     return `# ${userResponses.title}
 
-    ![License](https://img.shields.io/badge/License-${userResponses.licenses})
+[![License](https://img.shields.io/badge/License-${userResponses.licenses})]
     
-    ## Table of Contents
-    * [Description](#description)
-    * [Installation](#installation) 
-    * [Usage](#usage) 
-    * [Contributing](#contribution) 
-    * [Tests](#tests)
-    * [License](#licenses)
-    * [Questions](#questions)
+# Table of Contents
+* [Description](#description)
+* [Installation](#installation) 
+* [Usage](#usage) 
+* [Contributing](#contribution) 
+* [Tests](#tests)
+* [License](#licenses)
+* [Questions](#questions)
 
 
-    ## Description 
+# Description 
 
-    *The what, why, and how of your project:*
+The what, why, and how of your project:
 
-    ${userResponses.description}
+${userResponses.description}
 
 
-    ## Installation 
+# Installation 
 
-    *Steps required to install your project and how to get the development environment running:*
+Steps required to install your project and how to get the development environment running:
 
-    ${userResponses.installation}
+${userResponses.installation}
 
     
-    ## Usage 
+# Usage 
 
-    *Instructions and examples for usage:*
+Instructions and examples for usage:
 
-    ${userResponses.usage}
-    
-   
-    ## Contributing 
-
-    *If you would like to contribute it, you can follow these guidelines on how to do so.*
-
-    ${userResponses.contribution}
-
-   
-    ## Tests
-
-    *Tests for application and how to run them:*
-
-    ${userResponses.tests}
+${userResponses.usage}
     
    
-    ## License
+# Contributing 
 
-    ${userResponses.licenses}
+If you would like to contribute it, you can follow these guidelines on how to do so.
+
+${userResponses.contribution}
+
+   
+# Tests
+
+Tests for application and how to run them:
+
+${userResponses.tests}
     
-    ---
+   
+# License
 
-    ## Questions?
+${userResponses.licenses}
+    
+---
 
-    <img src"${userInfo.avatar_url}" alt="${userInfo.login}" width="35%" />
+# Questions?
 
-    For any questions, please don't hesitate to contact me. 
+<img src="${userInfo.avatar_url}" alt="${userInfo.login}" width="35%" />
 
-    GitHub: [@${userInfo.login}](${userInfo.url})`
+For any questions, please don't hesitate to contact me. 
+
+GitHub: [@${userInfo.login}](${userInfo.url})`
     
 }
 

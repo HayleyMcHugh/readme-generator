@@ -50,7 +50,7 @@ const userQuestions = [
     {
       type: 'list',
       message: 'Choose a license for your project.',
-      choices: ['Perl License', 'ISC License', 'GNU GPLv3', 'MIT License', 'Boost Software License 1.0', 'The Unlicense', 'Apache License 2.0', 'Mozilla Public License 2.0'],
+      choices: ['Perl-0298c3.svg', 'ISC-blue.svg', 'GPLv3-blue.svg', 'MIT-yellow.svg', 'Boost_1.0-lightblue.svg', 'Apache_2.0-blue.svg'],
       name: 'licenses',
     },
 ]
