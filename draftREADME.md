@@ -1,4 +1,4 @@
-# Readme Generator
+# README.md Generator
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
     
@@ -6,9 +6,9 @@
 * [Description](#description)
 * [Installation](#installation) 
 * [Usage](#usage) 
-* [Contributing](#contribution) 
+* [Contributing](#contributing) 
 * [Tests](#tests)
-* [License](#licenses)
+* [License](#license)
 * [Questions](#questions)
 
 
@@ -16,35 +16,35 @@
 
 The what, why, and how of your project:
 
-no
+The what, how, and why of your project.
 
 
 # Installation 
 
 Steps required to install your project and how to get the development environment running:
 
-no
+Steps to install your application.
 
     
 # Usage 
 
 Instructions and examples for usage:
 
-no
+Instructions and examples for the user
     
    
 # Contributing 
 
 If you would like to contribute it, you can follow these guidelines on how to do so.
 
-no
+Ways other developers can contribute to your project.
 
    
 # Tests
 
 Tests for application and how to run them:
 
-no
+Tests.
     
    
 # License

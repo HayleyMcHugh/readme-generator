@@ -7,9 +7,9 @@ function generateMarkdown(userResponses, userInfo) {
 * [Description](#description)
 * [Installation](#installation) 
 * [Usage](#usage) 
-* [Contributing](#contribution) 
+* [Contributing](#contributing) 
 * [Tests](#tests)
-* [License](#licenses)
+* [License](#license)
 * [Questions](#questions)
 
 
