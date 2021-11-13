@@ -60,8 +60,8 @@ function generateMarkdown(userResponses, userInfo) {
 
     For any questions, please don't hesitate to contact me. 
 
-    GitHub: [@${userInfo.login}](${userInfo.url})
-    `
+    GitHub: [@${userInfo.login}](${userInfo.url})`
+    
 }
 
 module.exports = generateMarkdown;
