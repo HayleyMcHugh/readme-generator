@@ -1,5 +1,6 @@
 const axios = require('axios');
 
+// function grabbing user info from GitHub api
 const userAPI = {
     async getUserInfo(userResponses) {
         try { let response = await axios

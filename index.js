@@ -1,3 +1,4 @@
+// packages/files needed for application
 const inquirer = require('inquirer');
 const util = require('util');
 const fs = require('fs');
@@ -5,7 +6,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js')
 const userAPI = require('./utils/userAPI.js');
 
-
+// user questions
 const userQuestions = [ 
     {
       type: 'input',
@@ -60,6 +61,7 @@ const userQuestions = [
     },
 ]
 
+// function to write to the file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, error => {
         if (error) {
@@ -71,6 +73,7 @@ function writeToFile(fileName, data) {
 
 const writeFile = util.promisify(writeToFile);
 
+//function passing through the user responses and info to the written file 
 async function init () {
   try { 
       const userResponses = await inquirer.prompt(userQuestions);
