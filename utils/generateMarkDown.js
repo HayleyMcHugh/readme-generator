@@ -1,4 +1,4 @@
-// function with README template and generates markdown file
+// function with README template that generates markdown file
 function generateMarkdown(userResponses, userInfo) {
     return `# ${userResponses.title}
 
