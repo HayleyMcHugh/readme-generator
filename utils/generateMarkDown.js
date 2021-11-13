@@ -60,8 +60,10 @@ ${userResponses.licenses}
 
 For any questions, please don't hesitate to contact me. 
 
-GitHub: [@${userInfo.login}](${userInfo.url})`
-    
+GitHub: [@${userInfo.login}](${userInfo.url})
+
+Email: ${userResponses.email}`
+
 }
 
 module.exports = generateMarkdown;

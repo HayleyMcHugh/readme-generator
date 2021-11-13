@@ -53,6 +53,11 @@ const userQuestions = [
       choices: ['Perl-0298c3.svg', 'ISC-blue.svg', 'GPLv3-blue.svg', 'MIT-yellow.svg', 'Boost_1.0-lightblue.svg', 'Apache_2.0-blue.svg'],
       name: 'licenses',
     },
+    {
+      type: 'input',
+      message: 'Please enter an email address where other developers can reach you at should they have questions.',
+      name: 'email',
+    },
 ]
 
 function writeToFile(fileName, data) {
