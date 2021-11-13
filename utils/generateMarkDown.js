@@ -1,7 +1,7 @@
 function generateMarkdown(userResponses, userInfo) {
     return `# ${userResponses.title}
 
-[![License](https://img.shields.io/badge/License-${userResponses.licenses})]
+![License](https://img.shields.io/badge/License-${userResponses.licenses})
     
 # Table of Contents
 * [Description](#description)
