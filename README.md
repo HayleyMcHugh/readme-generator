@@ -46,7 +46,7 @@ Lastly, the fs.writeFile generates the README.md file.
     
 ---
 
-<a href="https://github.com/HayleyMcHugh/readme-generator.git">Hayley McHugh GitHub</a>
+<a href="https://github.com/HayleyMcHugh/readme-generator.git">GitHub</a>
 
 # Credits 
 
